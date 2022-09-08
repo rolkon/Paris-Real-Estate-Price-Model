@@ -37,13 +37,4 @@ response = requests.get(cadastral_parcels_url)
 size = open('../data/cadastre-75-parcelles-shp.zip', 'wb').write(response.content)
 print(parcels_file, 'downloaded.\t{} bytes'.format(size))
 
-'''
-if not os.path.exists('../data/cadastre-75-parcelles-shp'):
-    os.makedirs('../data/cadastre-75-parcelles-shp')
-    
-with zipfile.ZipFile('../data/cadastre-75-parcelles-shp.zip', 'r') as zip_ref:
-    zip_ref.extractall('../data/cadastre-75-parcelles-shp')
-    
-print(parcels_file, 'extracted.')
-'''
 print('All done.')
