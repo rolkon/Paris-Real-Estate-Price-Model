@@ -10,6 +10,14 @@ This repository implements a model to estimate the real estate prices of old apa
 * [List of cadastral parcels in Paris](https://cadastre.data.gouv.fr/data/etalab-cadastre/2021-04-01/shp/departements/75/cadastre-75-parcelles-shp.zip)
   * [Documentation of the data (french)](https://cadastre.data.gouv.fr/)
 
+### How to use
+All source files are to be found in `src/`
+
+1. Download data with `data_downloader.py`. This creates the `data/` folder
+2. Execute the filtering and training with `price_estimator.py`
+
+A more thorough documentation of the code can be found in the `documentation.ipynb` jupyter notebook.
+
 ### Dependencies
 * [pyshp](https://pypi.org/project/pyshp/#overview)
 * [sklearn](https://scikit-learn.org/stable/)
