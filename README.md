@@ -12,4 +12,4 @@ This repository implements a model to estimate the real estate prices of old apa
 
 ### Dependencies
 * [pyshp](https://pypi.org/project/pyshp/#overview)
-* [pyproj](https://pyproj4.github.io/pyproj/stable/installation.html)
+* [sklearn](https://scikit-learn.org/stable/)
