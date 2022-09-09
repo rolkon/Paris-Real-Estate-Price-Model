@@ -14,7 +14,9 @@ This repository implements a model to estimate the real estate prices of old apa
 All source files are to be found in `src/`
 
 1. Download data with `data_downloader.py`. This creates the `data/` folder
-2. Execute the filtering and training with `price_estimator.py`
+2. Filter and join data with `data_filter.py`
+3. Find ideal model parameters with `model_trainer.py`
+4. Use model to correlate real estate prices with coordinates with `price_estimator.py`
 
 A more thorough documentation of the code can be found in the `documentation.ipynb` jupyter notebook.
 
